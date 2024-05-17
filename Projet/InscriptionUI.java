@@ -13,7 +13,6 @@ public class InscriptionUI extends JFrame {
     private JTextField prenomField;
     private JTextField telField;
     private JTextField adresseField;
-    // Ajoutez d'autres champs nécessaires
 
     private InscriptionService inscriptionService = new InscriptionService();
 
@@ -32,7 +31,6 @@ public class InscriptionUI extends JFrame {
         prenomField = new JTextField();
         telField = new JTextField();
         adresseField = new JTextField();
-        // Initialisez d'autres champs
 
         panel.add(new JLabel("Email:"));
         panel.add(emailField);
@@ -48,7 +46,7 @@ public class InscriptionUI extends JFrame {
         panel.add(telField);
         panel.add(new JLabel("Adresse:"));
         panel.add(adresseField);
-  
+
 
         JButton submitButton = new JButton("Inscription");
         submitButton.addActionListener(new ActionListener() {
